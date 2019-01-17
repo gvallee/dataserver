@@ -1,4 +1,9 @@
 /*
+ * Copyright(c)         Geoffroy Vallee
+ *                      All rights reserved
+ */
+
+/*
  * The data server provides the following features:
  * - support namespaces
  * - write a data block
