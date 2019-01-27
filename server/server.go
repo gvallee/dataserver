@@ -183,7 +183,6 @@ func GetBasedir (ds *Server) (string, err.SysError) {
 func GetBlocksize (ds *Server) (uint64, err.SysError) {
 	if (ds == nil) { return 0, err.ErrNotAvailable }
 
-	fmt.Println ("Mmmm...")
 	return ds.block_size, err.NoErr
 }
 
